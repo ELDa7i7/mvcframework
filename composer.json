@@ -1,0 +1,16 @@
+{
+    "name": "amrfathy/mvcframework",
+    "description": "A short description of what your package does",
+    
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app" 
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*" ,
+        "dcblogdev/pdo-wrapper": "^2.0",
+        "wixel/gump": "^1.11"
+    }
+}
